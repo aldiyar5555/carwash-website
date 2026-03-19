@@ -3,45 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Premium Car Wash</title>
+    <title>Premium Car Wash | Профессиональная автомойка в Астане</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Premium Car Wash</h1>
-        <p>Лучшая автомойка в Астане</p>
-        <nav>
-            <a href="#services">Услуги</a>
-            <a href="#prices">Цены</a>
-            <a href="#contacts">Контакты</a>
-        </nav>
+    <header class="hero">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">Premium<span>CarWash</span></div>
+                <ul class="nav-links">
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+                <a href="tel:+77777777777" class="btn-outline">Позвонить</a>
+            </nav>
+            <div class="hero-content">
+                <h1>Вернем вашей машине<br>блеск нового автомобиля</h1>
+                <p>Профессиональная автомойка в Астане. Используем только премиальную автохимию и современное оборудование.</p>
+                <a href="#services" class="btn-primary">Наши услуги</a>
+            </div>
+        </div>
     </header>
 
-    <section id="services">
-        <h2>Услуги</h2>
-        <ul>
-            <li>Мойка кузова</li>
-            <li>Химчистка</li>
-            <li>Полировка</li>
-        </ul>
+    <section id="about" class="about">
+        <div class="container grids">
+            <div class="about-text">
+                <h2>Кто мы такие?</h2>
+                <p>Premium Car Wash — это не просто мойка, это комплексный уход за вашим автомобилем. Мы понимаем, что ваш автомобиль — это инвестиция, и мы помогаем сохранить её ценность.</p>
+                <ul class="features-list">
+                    <li><i class="fas fa-check-circle"></i> Опыт работы более 10 лет</li>
+                    <li><i class="fas fa-check-circle"></i> Сертифицированные специалисты</li>
+                    <li><i class="fas fa-check-circle"></i> Гарантия качества на все услуги</li>
+                </ul>
+            </div>
+            <div class="about-image">
+                <img src="about-us.jpg" alt="Автомойщик за работой" class="img-responsive rounded shadow">
+            </div>
+        </div>
     </section>
 
-    <section id="prices">
-        <h2>Цены</h2>
-        <p>Мойка — 3000 тг</p>
-        <p>Химчистка — 15000 тг</p>
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Наши услуги</h2>
+                <p>Мы предлагаем полный спектр услуг по уходу за вашим автомобилем</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon-box"><i class="fas fa-tint"></i></div>
+                    <h3>Премиум Мойка</h3>
+                    <p>Трехфазная мойка кузова, дисков, ковриков.</p>
+                    <span class="price">от 5 000 ₸</span>
+                </div>
+                <div class="service-card">
+                    <div class="icon-box"><i class="fas fa-broom"></i></div>
+                    <h3>Химчистка</h3>
+                    <p>Глубокая очистка салона, удаление пятен и запахов.</p>
+                    <span class="price">от 25 000 ₸</span>
+                </div>
+                <div class="service-card">
+                    <div class="icon-box"><i class="fas fa-magic"></i></div>
+                    <h3>Полировка</h3>
+                    <p>Восстановление блеска, удаление царапин.</p>
+                    <span class="price">от 40 000 ₸</span>
+                </div>
+                <div class="service-card">
+                    <div class="icon-box"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Керамика</h3>
+                    <p>Нанесение защитного нанокерамического покрытия.</p>
+                    <span class="price">от 80 000 ₸</span>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="contacts">
-        <h2>Контакты</h2>
-        <p>Астана</p>
-        <p>+7 700 000 0000</p>
-        <p><a href="tel:+77000000000" class="btn">Позвонить нам</a></p>
+    <section id="contacts" class="contacts">
+        <div class="container">
+            <div class="section-title">
+                <h2>Свяжитесь с нами</h2>
+                <p>Мы всегда рады помочь вам и вашему автомобилю</p>
+            </div>
+            <div class="grids">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>г. Астана, ул. Примерная, 123</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p><a href="tel:+77777777777">+7 (777) 777-77-77</a></p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p><a href="mailto:info@carwash.kz">info@carwash.kz</a></p>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <h3>Готовы записаться?</h3>
+                    <p>Позвоните нам или напишите в WhatsApp для быстрой записи.</p>
+                    <a href="https://wa.me/77777777777" class="btn-whatsapp"><i class="fab fa-whatsapp"></i> Написать в WhatsApp</a>
+                </div>
+            </div>
+        </div>
     </section>
 
     <footer>
-        &copy; 2026 Premium Car Wash, Астана
+        <div class="container">
+            <p>&copy; 2024 Premium Car Wash Астана. Все права защищены.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
     </footer>
 
 </body>
